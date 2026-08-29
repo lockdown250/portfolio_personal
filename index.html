@@ -8,6 +8,7 @@
     name="description"
     content="Professional mechanical maintenance, erection, and procurement support for power plant projects."
   >
+  <meta name="robots" content="index,follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,7 +17,7 @@
   >
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body oncontextmenu="return false;">
   <header class="hero" id="top">
     <nav class="nav">
       <div class="brand">SAMI UZZAMAN</div>
@@ -142,20 +143,44 @@
       </div>
     </section>
 
-    <section class="section media-section">
+    <section class="section media-section" id="gallery">
       <div class="section-heading">
         <p class="eyebrow">Gallery & Video</p>
-        <h2>Space ready for site photos and work videos</h2>
+        <h2>Project gallery and work video highlights</h2>
+        <p>
+          This gallery is set up to discourage simple saving and sharing. For best protection,
+          use watermarked web-size images instead of original high-resolution files.
+        </p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-card">
+          <div class="image-guard">
+            <img src="images/pump-maintenance-1.jpg" alt="Pump maintenance work" draggable="false">
+            <div class="guardmark">SAMI UZZAMAN</div>
+          </div>
+          <figcaption>Pump maintenance work</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <div class="image-guard">
+            <img src="images/conveyor-maintenance-1.jpg" alt="Conveyor maintenance work" draggable="false">
+            <div class="guardmark">SAMI UZZAMAN</div>
+          </div>
+          <figcaption>Conveyor maintenance work</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <div class="image-guard">
+            <img src="images/site-erection-1.jpg" alt="Mechanical erection activity" draggable="false">
+            <div class="guardmark">SAMI UZZAMAN</div>
+          </div>
+          <figcaption>Mechanical erection activity</figcaption>
+        </figure>
       </div>
       <div class="media-grid">
-        <div class="media-placeholder large">
-          <span>Add a featured project image or team photo</span>
+        <div class="media-placeholder">
+          <span>Replace with your YouTube embed or work video link</span>
         </div>
         <div class="media-placeholder">
-          <span>Add another site image</span>
-        </div>
-        <div class="media-placeholder">
-          <span>Embed YouTube or work video here</span>
+          <span>Add one more protected project image here later</span>
         </div>
       </div>
     </section>
@@ -204,5 +229,6 @@
     <p>(c) 2026 SAMI UZZAMAN. Mechanical Maintenance & Erection Services.</p>
     <a href="#top">Back to top</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
